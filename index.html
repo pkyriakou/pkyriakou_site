@@ -1,4 +1,44 @@
 ---
-layout: home
-author_profile: true
+title: "Hey, I am Panos"
+layout: splash
+permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/background.jpg
+  actions:
+    - label: "Connect with me"
+      url: "https://www.linkedin.com/in/panoskyriakou/"
+  caption: "Photo credit: [**FREEPIK**](https://www.freepik.com)"
+excerpt: "Artificial Intelligence engineer from Athens, Greece. I love researching and developing AI solutions in interesting and impactful projects."
+intro: 
+  - excerpt: '**_"The the the the the the the the the the the the ..."_**  ~ My first N-gram langauge model'
+feature_row:
+    - image_path: /assets/images/linkedin_profile_image_teaser.jpg
+      alt: "panos image"
+      title: "About Me"
+      excerpt: "They say the journey is more important than the destination. **Discover my professional and academic experiences.**"
+      url: "/about/"
+      btn_label: "Read More"
+      btn_class: "btn--primary"
+    - image_path: /assets/images/projects_splash_image.jpg
+      image_caption: "Image courtesy of [FREEPIK](https://www.freepik.com/)"
+      alt: "projects image"
+      title: "Projects"
+      excerpt: "I love the things I work on and thus I enjoy sharing them with the world. **Discover my current and past projects.**"
+      url: "/projects/"
+      btn_label: "Read More"
+      btn_class: "btn--primary"
+    - image_path: /assets/images/blog_splash_image.jpg
+      image_caption: "Image courtesy of [FREEPIK](https://www.freepik.com/)"
+      alt: "blog image"
+      title: "Blog"
+      excerpt: "I like sharing my thoughts and ideas with other people, technical or personal. **Discover my blog posts.**"
+      url: "/posts/"
+      btn_label: "Read More"
+      btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
