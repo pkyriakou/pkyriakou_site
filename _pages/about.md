@@ -4,7 +4,7 @@ title: "About me"
 last_modified_at: 2024-11-07
 ---
 
-My name is Panagiotis. I am from Athens, Greece, but I currently reside in Brussels, Belgium. I am super passionate about all things AI and Data Science. Whether it is some expansive data cleaning at the beginning of a project or a book on AI ethics, be sure that I will be all about it.
+My name is Panagiotis Kyriakou or Panos for short. I am from Athens, Greece, but I currently reside in Brussels, Belgium. I am super passionate about all things AI and Data Science. Whether it is some expansive data cleaning at the beginning of a project or a book on AI ethics, be sure that I will be all about it.
 
 I am currently an AI Software Developer at Odoo, a Belgian ERP software company. Before this position, I was a master's student at the University of Edinburgh in Scotland. The following sections contain all my academic and professional experiences.
 
