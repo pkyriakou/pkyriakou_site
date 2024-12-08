@@ -4,6 +4,12 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
+{% if post.header.teaser_caption %}
+  {% assign teaser_caption = post.header.teaser_caption | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign teaser_caption = post.header.teaser_caption %}
+{% endif %}
+
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
@@ -15,6 +21,9 @@
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
+        {% if teaser_caption %}
+          <span class="archive__item-caption">{{ teaser_caption }}</span>
+        {% endif %}
       </div>
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
