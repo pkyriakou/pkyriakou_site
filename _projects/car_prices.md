@@ -3,7 +3,9 @@ title: "Car price prediction"
 excerpt: "Learn how much your car might be worth without ever speaking to a dealer."
 header:
   image: /assets/images/image_cars_large.jpg
+  caption: "Image courtesy of [FREEPIK](https://www.freepik.com/)"
   teaser: /assets/images/image_cars_small.jpg
+  teaser_caption: "Image courtesy of [FREEPIK](https://www.freepik.com/)"
 ---
 
 Asset valuation can be a very time consuming and stressful process. It basically dictates how much money you will earn or spend on a product, and thus it carries a lot of weight for everyone involved.
